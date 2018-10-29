@@ -1,5 +1,9 @@
 After spending a few hours trying to figure out how to configure EF Core 2.1 in a separate class library project, and having looked at what's available on the internet, I thought of creating this project for anyone looking to do the same so they can benefit of this easy approach.
 
+
+## Youtube
+https://youtu.be/jtqYWFLfEn4
+
 ## Solution Projects
 | Project | Application Layer |
 | :--- | :--- |
