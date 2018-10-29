@@ -17,22 +17,22 @@ This project creates the DbContext from a design-time factory, details -
 https://docs.microsoft.com/en-us/ef/core/miscellaneous/cli/dbcontext-creation
 
 ## dotnet commands used in the project
-*Create a webapi project*
+*Create a webapi project*  
 dotnet new webapi --name API --output API
 
-*Create the Data Class Library Project*
-dotnet new classlib --name Data --output Data
+*Create the Data Class Library Project*  
+dotnet new classlib --name Data --output Data  
 Change the .csproj TargetFramework to netcoreapp2.1 to target .NET core
 
-*Add Data project reference from API directory*
+*Add Data project reference from API directory*  
 dotnet add reference ../Data/Data.csproj
 
 ## Required dependencies
-Microsoft.EntityFrameworkCore.Sqlite
+Microsoft.EntityFrameworkCore.Sqlite  
 Microsoft.EntityFrameworkCore.Design
 
 ## Optional dependencies
-Following dependencies are required to access the appsettings configuration in the Data project from the API project:
-Microsoft.Extensions.Configuration
-Microsoft.Extensions.Configuration.Json
+Following dependencies are required to access the appsettings configuration in the Data project from the API project:  
+Microsoft.Extensions.Configuration  
+Microsoft.Extensions.Configuration.Json  
 Newtonsoft.Json
